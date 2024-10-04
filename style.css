@@ -1,0 +1,26 @@
+html {
+    height: 100vh;
+}
+
+body {
+    height: 100%;
+}
+html{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h1,h2{
+    color: white;
+    text-align: center;
+}
+
+
+
+@keyframes algo {
+    from {color:black}
+    50% {color: rgb(218, 103, 32);}
+    to {color:black}
+}
